@@ -1,0 +1,27 @@
+For Q1, We have file "solver.py". 
+To execute this, in command line give command
+    > python3 ./solver.py
+Then give the file name that has input sudoku. For testing on a given test file like "test5.csv" input : tests/test5.csv
+Input file should be of the format:
+    1. k
+    2...k^2+1 lines will have first sudoku with digits comma saperated, each line contains one row of sudoku.
+    k^2+2...2*k^2+1 lines will have second sudoku with digits comma saperated, each line contains one row of sudoku.
+In place of holes will be zero.
+If the input file has name "inpfile.csv" then the output file will be of name "out_inpfile.csv". This file will be of format:
+    1...k^2 lines will have first sudoku with digits comma saperated, each line contains one row of sudoku.
+    k^2+1...2*k^2 lines will have second sudoku with digits comma saperated, each line contains one row of sudoku.
+
+For Q2, We have file "generator.py"
+To execute this, in command line give command
+    > python3 ./generator.py
+Then give the value of "k" as an integer.
+The program will produce a output file whose name is "outputk.csv" where k is the given input integer.
+The output file will be of the format:
+    1. k
+    2...k^2+1 lines will have first sudoku with digits comma saperated, each line contains one row of sudoku.
+    k^2+2...2*k^2+1 lines will have second sudoku with digits comma saperated, each line contains one row of sudoku.
+In place of holes will be zero.
+
+The folder "tests" contains 5 test cases for Q1 "solver.py".
+The folder "Output" contains 5 expected ouputs with "outi.csv" being output of "testi.csv" for Q1 "solver.py".
+
